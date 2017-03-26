@@ -2,4 +2,4 @@
 
 Code examples related to blob posts
 
-- [Nightmare.js](/nigthmarejs-blog/README.md)
+- [Nightmare.js](nightmarejs-blog/README.md)
