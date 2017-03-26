@@ -1,0 +1,11 @@
+{
+  "name": "nightmarejs-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec ./test/"
+  },
+  "author": "",
+  "license": "ISC"
+}
