@@ -4,8 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R spec ./test/"
+    "test": "mocha -t 100000 -R spec ./test/"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.0.0-canary.1",
+    "nightmare": "^2.10.0"
+  }
 }
