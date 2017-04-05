@@ -24,5 +24,8 @@ describe( "Simple test with page interaction", () => {
       .click('.navbar-toggle')
       .click('.navbar-collapse li:nth-child(5) a')
       .wait('.contact')
+      // .type('#name', 'Andrea Caldera')
+      // .insert('#message', 'Hello!')
+      // .click('#submit')
   )
 });

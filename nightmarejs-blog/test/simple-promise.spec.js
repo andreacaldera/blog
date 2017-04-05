@@ -16,11 +16,11 @@ describe( "Simple test with promise", () => {
     yield nightmare.end();
   });
 
-  it('loads a page and checks status', () => {
-    return nightmare
+  it('loads a page and checks status', () =>
+    nightmare
       .goto('http://www.guidesmiths.com')
       .then((res) => {
         assert.equal(res.code, 200);
       })
-  })
+  )
 });
